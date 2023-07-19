@@ -136,3 +136,44 @@ button {
     padding: 10px;
 }
 
+@media screen and (max-width: 800px){
+    .votar{
+        width: 100%;
+        width: 50%;
+        border-radius: 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .dados{
+        height: 15%;
+    }
+
+    .container1{
+        height: auto;
+        width: 93%;
+    }
+
+    .container2{
+        height: auto;
+    }
+
+    .card1{
+        background-image: linear-gradient(#2638DD, #332988);
+        width: 100%;
+        height: 500px;
+        margin-bottom: 20px;
+    }
+
+    .inputs{
+        width: 90%;
+        height: 50px;
+    }
+}
+
+@media screen and (max-width: 560px){
+    .votar{
+        width: 70%;
+    } 
+}
