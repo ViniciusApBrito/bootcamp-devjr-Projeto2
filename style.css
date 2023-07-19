@@ -136,8 +136,8 @@ button {
     padding: 10px;
 }
 
-@media screen and (max-width: 800px){
-    .votar{
+@media screen and (max-width: 800px) {
+    .votar {
         width: 100%;
         width: 50%;
         border-radius: 10px;
@@ -146,34 +146,34 @@ button {
         align-items: center;
     }
 
-    .dados{
+    .dados {
         height: 15%;
     }
 
-    .container1{
+    .container1 {
         height: auto;
         width: 93%;
     }
 
-    .container2{
+    .container2 {
         height: auto;
     }
 
-    .card1{
+    .card1 {
         background-image: linear-gradient(#2638DD, #332988);
         width: 100%;
         height: 500px;
         margin-bottom: 20px;
     }
 
-    .inputs{
+    .inputs {
         width: 90%;
         height: 50px;
     }
 }
 
-@media screen and (max-width: 560px){
-    .votar{
+@media screen and (max-width: 560px) {
+    .votar {
         width: 70%;
-    } 
+    }
 }
